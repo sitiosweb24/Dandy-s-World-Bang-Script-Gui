@@ -37,7 +37,7 @@
 	--Properties:
 
 	bangGui.Name = "bangGui"
-	bangGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	bangGui.Parent = game:GetService("CoreGui")
 	bangGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 	bangGui.ResetOnSpawn = false
 	bangGui.IgnoreGuiInset = true
