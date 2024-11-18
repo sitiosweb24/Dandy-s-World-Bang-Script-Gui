@@ -3,7 +3,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = false})
 
 local Tab = Window:MakeTab({
-	Name = "Bang Gui Key System",
+	Name = "Key System",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
