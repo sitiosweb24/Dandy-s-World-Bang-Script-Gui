@@ -610,7 +610,7 @@ animTrack:AdjustSpeed(1)
 		mainfrme2.Visible = false
 
 		toggleButton.MouseButton1Click:Connect(function()
-			--mainFrame.Visible = not mainFrame.Visible
+			mainFrame.Visible = not mainFrame.Visible
 			mainfrme2.Visible = not mainfrme2.Visible
 		end)
 	end 
